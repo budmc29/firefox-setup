@@ -4,7 +4,7 @@
 
 # extract archive to folder
 tar -xjvf firefox-34.0.5.tar.bz2
-rm -rf /opt/firefox*
+rm -rf /opt/firefox34*
 mv firefox /opt/firefox34.0.5
 ln -sf /opt/firefox34.0.5/firefox /usr/bin/firefox
 
@@ -27,8 +27,9 @@ Name[en]=firefox.desktop" > /usr/share/applications/firefox.desktop
 echo "Firefox installed"
 
 # open firefox adblock plus extension
-firefox "adblock.xpi"&
-firefox "dark_theme.xpi"&
-firefox "vimperator.xpi"&
-firefox "lastpass.xpi"&
-firefox "xmarks.xpi"&
+nautilus --browser .
+# firefox "adblock.xpi"
+# firefox "dark_theme.xpi"
+# firefox "vimperator.xpi"
+# firefox "lastpass.xpi"
+# firefox "xmarks.xpi"
