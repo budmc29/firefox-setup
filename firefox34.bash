@@ -22,7 +22,7 @@ Terminal=false
 Comment=Firefox 34
 NoDisplay=false
 Categories=Internet;
-Name[en]=firefox.desktop" > /usr/share/applications/firefox.desktop
+Name[en]=firefox34" > /usr/share/applications/firefox.desktop
 
 echo "Firefox installed"
 
