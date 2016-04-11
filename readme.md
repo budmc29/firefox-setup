@@ -1,6 +1,6 @@
-# Install firefox version 34 (december 2014)
+# Install firefox version 38 Extended Support Release
 ```
-sudo bash firefox34.bash
+sudo bash firefox38.bash
 ```
 Plugins:
   Adblock
