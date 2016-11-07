@@ -25,15 +25,4 @@ Categories=Internet;
 Name[en]=firefox38" > /usr/share/applications/firefox.desktop
 
 echo "Firefox installed."
-echo "Remember to disable auto update and install the plugins."
-echo "Press any key to continue"
-read
-# open firefox adblock plus extension
-nautilus --browser .
-# firefox "adblock.xpi"
-# firefox "dark_theme.xpi"
-# firefox "vimperator.xpi"
-# firefox "lastpass.xpi"
-# firefox "xmarks.xpi"
-
-
+firefox *.xpi
