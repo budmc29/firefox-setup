@@ -25,4 +25,3 @@ Categories=Internet;
 Name[en]=firefox38" > /usr/share/applications/firefox.desktop
 
 echo "Firefox installed."
-firefox *.xpi
